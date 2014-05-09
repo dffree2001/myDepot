@@ -54,3 +54,6 @@ end
 
 # Heroku gem
 gem 'rails_12factor', group: :production
+
+#set ruby version
+ruby "1.9.3"
