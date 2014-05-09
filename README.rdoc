@@ -4,8 +4,9 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
+By Debbie Nichols
 
-* Ruby version
+* Ruby version 1.9.3 p392
 
 * System dependencies
 
