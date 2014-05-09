@@ -35,12 +35,7 @@
         <li><a href="http://www.../news"><%= t('.news') %></a></li>
         <li><a href="http://www.../contact"><%= t('.contact') %>></a></li>
       </ul>
-      <div id="newproduct">
-        <div id="np_title"><%= Product.latest.title %></div>
-        <p><%= image_tag(Product.latest.image_url) %></p>
-        <%= Product.latest.description %>
-
-      </div>
+      
       <% if session[:user_id] %>
         <ul>
           <li><%= link_to 'Orders', orders_path %></li>
