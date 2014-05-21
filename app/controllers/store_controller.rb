@@ -10,6 +10,8 @@ class StoreController < ApplicationController
     else
       @products = Product.order(:title)
     end
+    #added following line to see if products are available
+    @products = Product.order(:title)
 
     if session[:counter].nil?
       session[:counter]= 1
