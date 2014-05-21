@@ -19,7 +19,7 @@ class Product < ActiveRecord::Base
   validates :description, length: {minimum: 10}
   validates :image_url, allow_blank: true, format:
       {with: %r{\.(gif|jpg|png)\Z}i, message: 'must be a URL for GIF, JPG, or PNG image.'}
-  validates :locale, presence: true
+  # validates :locale, presence: true
 
 
   def self.latest
