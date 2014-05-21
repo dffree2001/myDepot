@@ -20,7 +20,7 @@ class ApplicationController < ActionController::Base
     def authorize
       if User.count.zero? and @flag==nil
         @flag=1
-        redirect_to new_user_url, notice: "Please create a new user"
+        # redirect_to new_user_url, notice: "Please create a new user"
         @user = User.new
         return
       end
