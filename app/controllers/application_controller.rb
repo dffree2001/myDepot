@@ -18,12 +18,12 @@ class ApplicationController < ActionController::Base
   protected
 
     def authorize
-      #if User.count.zero? and @flag==nil
-      # @flag=1
-      #  redirect_to new_user_url, notice: "Please create a new user"
-      #  @user = User.new
-      #  return
-      #end
+      if User.count.zero? and @flag==nil
+        @flag=1
+        redirect_to new_user_url, notice: "Please create a new user"
+        @user = User.new
+        return
+      end
       unless User.find_by(id: session[:user_id]) || User.count.zero?
         redirect_to login_url, notice: "Please log in"
       end
