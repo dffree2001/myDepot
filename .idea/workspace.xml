@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32ede459-d50c-46d1-b6b0-4d06ae8971df" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Admin\Documents\GitHub\myDepot\db\migrate\20140411024109_create_users.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/depot_a.iml" afterPath="$PROJECT_DIR$/.idea/depot_a.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="32ede459-d50c-46d1-b6b0-4d06ae8971df" name="Default" comment="" />
     <ignored path="depot_a.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -170,8 +161,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="423" />
-    <option name="y" value="38" />
+    <option name="x" value="382" />
+    <option name="y" value="204" />
     <option name="width" value="1048" />
     <option name="height" value="860" />
   </component>
@@ -697,7 +688,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="423" y="38" width="1048" height="860" extended-state="0" />
+    <frame x="382" y="204" width="1048" height="860" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30331126" sideWeight="0.49696356" order="11" side_tool="false" content_ui="tabs" />
