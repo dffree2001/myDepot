@@ -13,4 +13,17 @@ module ApplicationHelper
     end
     content_tag("div", attributes, &block)
   end
+
+  # converts
+  # "string with _link_ in the middle." to
+  # "string with #{link_to('link', link_url, link_options)} in the middle."
+  def string_with_link(str, link_url, link_options = {})
+    match = str.match(/__([^_]{2,30})__/)
+    if !match.blank?
+      raw($` + link_to($1, link_url, link_options) + $')
+    else
+      raise "string_with_link: No place for __link__ given in #{str}" if Rails.env.test?
+      nil
+    end
+  end
 end
