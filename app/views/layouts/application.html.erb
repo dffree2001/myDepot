@@ -19,21 +19,14 @@
     <%= image_tag("logo.png") %>
     <%= @page_title || t('.title') %>
   </div>
+
   <div id="columns">
     <div id="side">
-      <div id="cart">
-        <% if @cart %>
-          <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
-            <%= render @cart %>
-          <% end %>
-        <% end %>
-      </div>
+
 
       <ul>
-        <li><a href="http://www..."><%= t('.home') %></a></li>
-        <li><a href="http://www.../faq"><%= t('.questions') %></a></li>
-        <li><a href="http://www.../news"><%= t('.news') %></a></li>
-        <li><a href="http://www.../contact"><%= t('.contact') %></a></li>
+        <li><%= link_to t('.home'), store_path %></li>
+        <li><%= link_to t('.login'), sessions_new_path %></li>
       </ul>
 
       <% if session[:user_id] %>
@@ -44,6 +37,14 @@
         </ul>
           <%= button_to 'Logout', logout_path, method: :delete %>
       <% end %>
+
+      <div id="cart">
+        <% if @cart %>
+            <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
+                <%= render @cart %>
+            <% end %>
+        <% end %>
+      </div>
     </div>
     <div id="main">
       <%= yield %>

@@ -27,6 +27,7 @@ en:
     application:
       title:        "Debbie's Bookshelf"
       home:         "Home"
+      login:        "Login"
       questions:    "Questions"
       news:         "News"
       contact:      "Contact"

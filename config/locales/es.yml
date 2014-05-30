@@ -6,6 +6,7 @@ es:
     application:
       title:        "Publicaciones de Debbie"
       home:         "Inicio"
+      login:        "Acceder"
       questions:    "Preguntas"
       news:         "Noticias"
       contact:      "Contacto"
